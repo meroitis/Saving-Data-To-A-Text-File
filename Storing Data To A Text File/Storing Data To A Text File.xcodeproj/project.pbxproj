@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92050B8724E31A280060171E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92050B8624E31A280060171E /* AppDelegate.swift */; };
+		92050B8924E31A280060171E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92050B8824E31A280060171E /* SceneDelegate.swift */; };
+		92050B8B24E31A280060171E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92050B8A24E31A280060171E /* ViewController.swift */; };
+		92050B8E24E31A280060171E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92050B8C24E31A280060171E /* Main.storyboard */; };
+		92050B9124E31A280060171E /* Storing_Data_To_A_Text_File.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92050B8F24E31A280060171E /* Storing_Data_To_A_Text_File.xcdatamodeld */; };
+		92050B9324E31A2A0060171E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92050B9224E31A2A0060171E /* Assets.xcassets */; };
+		92050B9624E31A2A0060171E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92050B9424E31A2A0060171E /* LaunchScreen.storyboard */; };
+		92050BA124E31A2B0060171E /* Storing_Data_To_A_Text_FileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92050BA024E31A2B0060171E /* Storing_Data_To_A_Text_FileTests.swift */; };
+		92050BAC24E31A2B0060171E /* Storing_Data_To_A_Text_FileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92050BAB24E31A2B0060171E /* Storing_Data_To_A_Text_FileUITests.swift */; };
+		92050BBA24E31D450060171E /* WireAP_808a170b27b4426eba66f3e8f232183f_16x9_992.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92050BB924E31D450060171E /* WireAP_808a170b27b4426eba66f3e8f232183f_16x9_992.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92050B9D24E31A2B0060171E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92050B7B24E31A280060171E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92050B8224E31A280060171E;
+			remoteInfo = "Storing Data To A Text File";
+		};
+		92050BA824E31A2B0060171E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92050B7B24E31A280060171E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92050B8224E31A280060171E;
+			remoteInfo = "Storing Data To A Text File";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92050B8324E31A280060171E /* Storing Data To A Text File.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storing Data To A Text File.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92050B8624E31A280060171E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92050B8824E31A280060171E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92050B8A24E31A280060171E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92050B8D24E31A280060171E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92050B9024E31A280060171E /* Storing_Data_To_A_Text_File.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Storing_Data_To_A_Text_File.xcdatamodel; sourceTree = "<group>"; };
+		92050B9224E31A2A0060171E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92050B9524E31A2A0060171E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92050B9724E31A2A0060171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92050B9C24E31A2B0060171E /* Storing Data To A Text FileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storing Data To A Text FileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92050BA024E31A2B0060171E /* Storing_Data_To_A_Text_FileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storing_Data_To_A_Text_FileTests.swift; sourceTree = "<group>"; };
+		92050BA224E31A2B0060171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92050BA724E31A2B0060171E /* Storing Data To A Text FileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Storing Data To A Text FileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92050BAB24E31A2B0060171E /* Storing_Data_To_A_Text_FileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storing_Data_To_A_Text_FileUITests.swift; sourceTree = "<group>"; };
+		92050BAD24E31A2B0060171E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92050BB924E31D450060171E /* WireAP_808a170b27b4426eba66f3e8f232183f_16x9_992.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WireAP_808a170b27b4426eba66f3e8f232183f_16x9_992.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92050B8024E31A280060171E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92050B9924E31A2B0060171E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92050BA424E31A2B0060171E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92050B7A24E31A280060171E = {
+			isa = PBXGroup;
+			children = (
+				92050B8524E31A280060171E /* Storing Data To A Text File */,
+				92050B9F24E31A2B0060171E /* Storing Data To A Text FileTests */,
+				92050BAA24E31A2B0060171E /* Storing Data To A Text FileUITests */,
+				92050B8424E31A280060171E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92050B8424E31A280060171E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92050B8324E31A280060171E /* Storing Data To A Text File.app */,
+				92050B9C24E31A2B0060171E /* Storing Data To A Text FileTests.xctest */,
+				92050BA724E31A2B0060171E /* Storing Data To A Text FileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92050B8524E31A280060171E /* Storing Data To A Text File */ = {
+			isa = PBXGroup;
+			children = (
+				92050BB924E31D450060171E /* WireAP_808a170b27b4426eba66f3e8f232183f_16x9_992.jpg */,
+				92050B8624E31A280060171E /* AppDelegate.swift */,
+				92050B8824E31A280060171E /* SceneDelegate.swift */,
+				92050B8A24E31A280060171E /* ViewController.swift */,
+				92050B8C24E31A280060171E /* Main.storyboard */,
+				92050B9224E31A2A0060171E /* Assets.xcassets */,
+				92050B9424E31A2A0060171E /* LaunchScreen.storyboard */,
+				92050B9724E31A2A0060171E /* Info.plist */,
+				92050B8F24E31A280060171E /* Storing_Data_To_A_Text_File.xcdatamodeld */,
+			);
+			path = "Storing Data To A Text File";
+			sourceTree = "<group>";
+		};
+		92050B9F24E31A2B0060171E /* Storing Data To A Text FileTests */ = {
+			isa = PBXGroup;
+			children = (
+				92050BA024E31A2B0060171E /* Storing_Data_To_A_Text_FileTests.swift */,
+				92050BA224E31A2B0060171E /* Info.plist */,
+			);
+			path = "Storing Data To A Text FileTests";
+			sourceTree = "<group>";
+		};
+		92050BAA24E31A2B0060171E /* Storing Data To A Text FileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92050BAB24E31A2B0060171E /* Storing_Data_To_A_Text_FileUITests.swift */,
+				92050BAD24E31A2B0060171E /* Info.plist */,
+			);
+			path = "Storing Data To A Text FileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92050B8224E31A280060171E /* Storing Data To A Text File */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92050BB024E31A2B0060171E /* Build configuration list for PBXNativeTarget "Storing Data To A Text File" */;
+			buildPhases = (
+				92050B7F24E31A280060171E /* Sources */,
+				92050B8024E31A280060171E /* Frameworks */,
+				92050B8124E31A280060171E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storing Data To A Text File";
+			productName = "Storing Data To A Text File";
+			productReference = 92050B8324E31A280060171E /* Storing Data To A Text File.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92050B9B24E31A2B0060171E /* Storing Data To A Text FileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92050BB324E31A2B0060171E /* Build configuration list for PBXNativeTarget "Storing Data To A Text FileTests" */;
+			buildPhases = (
+				92050B9824E31A2B0060171E /* Sources */,
+				92050B9924E31A2B0060171E /* Frameworks */,
+				92050B9A24E31A2B0060171E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92050B9E24E31A2B0060171E /* PBXTargetDependency */,
+			);
+			name = "Storing Data To A Text FileTests";
+			productName = "Storing Data To A Text FileTests";
+			productReference = 92050B9C24E31A2B0060171E /* Storing Data To A Text FileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92050BA624E31A2B0060171E /* Storing Data To A Text FileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92050BB624E31A2B0060171E /* Build configuration list for PBXNativeTarget "Storing Data To A Text FileUITests" */;
+			buildPhases = (
+				92050BA324E31A2B0060171E /* Sources */,
+				92050BA424E31A2B0060171E /* Frameworks */,
+				92050BA524E31A2B0060171E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92050BA924E31A2B0060171E /* PBXTargetDependency */,
+			);
+			name = "Storing Data To A Text FileUITests";
+			productName = "Storing Data To A Text FileUITests";
+			productReference = 92050BA724E31A2B0060171E /* Storing Data To A Text FileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92050B7B24E31A280060171E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Cristobal Romero";
+				TargetAttributes = {
+					92050B8224E31A280060171E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					92050B9B24E31A2B0060171E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 92050B8224E31A280060171E;
+					};
+					92050BA624E31A2B0060171E = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 92050B8224E31A280060171E;
+					};
+				};
+			};
+			buildConfigurationList = 92050B7E24E31A280060171E /* Build configuration list for PBXProject "Storing Data To A Text File" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92050B7A24E31A280060171E;
+			productRefGroup = 92050B8424E31A280060171E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92050B8224E31A280060171E /* Storing Data To A Text File */,
+				92050B9B24E31A2B0060171E /* Storing Data To A Text FileTests */,
+				92050BA624E31A2B0060171E /* Storing Data To A Text FileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92050B8124E31A280060171E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92050B9624E31A2A0060171E /* LaunchScreen.storyboard in Resources */,
+				92050B9324E31A2A0060171E /* Assets.xcassets in Resources */,
+				92050B8E24E31A280060171E /* Main.storyboard in Resources */,
+				92050BBA24E31D450060171E /* WireAP_808a170b27b4426eba66f3e8f232183f_16x9_992.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92050B9A24E31A2B0060171E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92050BA524E31A2B0060171E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92050B7F24E31A280060171E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92050B9124E31A280060171E /* Storing_Data_To_A_Text_File.xcdatamodeld in Sources */,
+				92050B8B24E31A280060171E /* ViewController.swift in Sources */,
+				92050B8724E31A280060171E /* AppDelegate.swift in Sources */,
+				92050B8924E31A280060171E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92050B9824E31A2B0060171E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92050BA124E31A2B0060171E /* Storing_Data_To_A_Text_FileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92050BA324E31A2B0060171E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92050BAC24E31A2B0060171E /* Storing_Data_To_A_Text_FileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92050B9E24E31A2B0060171E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92050B8224E31A280060171E /* Storing Data To A Text File */;
+			targetProxy = 92050B9D24E31A2B0060171E /* PBXContainerItemProxy */;
+		};
+		92050BA924E31A2B0060171E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92050B8224E31A280060171E /* Storing Data To A Text File */;
+			targetProxy = 92050BA824E31A2B0060171E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92050B8C24E31A280060171E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92050B8D24E31A280060171E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92050B9424E31A2A0060171E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92050B9524E31A2A0060171E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92050BAE24E31A2B0060171E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92050BAF24E31A2B0060171E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92050BB124E31A2B0060171E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Storing Data To A Text File/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StoringData2Text.Storing-Data-To-A-Text-File";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92050BB224E31A2B0060171E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Storing Data To A Text File/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StoringData2Text.Storing-Data-To-A-Text-File";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92050BB424E31A2B0060171E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Storing Data To A Text FileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StoringData2Text.Storing-Data-To-A-Text-FileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storing Data To A Text File.app/Storing Data To A Text File";
+			};
+			name = Debug;
+		};
+		92050BB524E31A2B0060171E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Storing Data To A Text FileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StoringData2Text.Storing-Data-To-A-Text-FileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Storing Data To A Text File.app/Storing Data To A Text File";
+			};
+			name = Release;
+		};
+		92050BB724E31A2B0060171E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Storing Data To A Text FileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StoringData2Text.Storing-Data-To-A-Text-FileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Storing Data To A Text File";
+			};
+			name = Debug;
+		};
+		92050BB824E31A2B0060171E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Storing Data To A Text FileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StoringData2Text.Storing-Data-To-A-Text-FileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Storing Data To A Text File";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92050B7E24E31A280060171E /* Build configuration list for PBXProject "Storing Data To A Text File" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92050BAE24E31A2B0060171E /* Debug */,
+				92050BAF24E31A2B0060171E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92050BB024E31A2B0060171E /* Build configuration list for PBXNativeTarget "Storing Data To A Text File" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92050BB124E31A2B0060171E /* Debug */,
+				92050BB224E31A2B0060171E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92050BB324E31A2B0060171E /* Build configuration list for PBXNativeTarget "Storing Data To A Text FileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92050BB424E31A2B0060171E /* Debug */,
+				92050BB524E31A2B0060171E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92050BB624E31A2B0060171E /* Build configuration list for PBXNativeTarget "Storing Data To A Text FileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92050BB724E31A2B0060171E /* Debug */,
+				92050BB824E31A2B0060171E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92050B8F24E31A280060171E /* Storing_Data_To_A_Text_File.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92050B9024E31A280060171E /* Storing_Data_To_A_Text_File.xcdatamodel */,
+			);
+			currentVersion = 92050B9024E31A280060171E /* Storing_Data_To_A_Text_File.xcdatamodel */;
+			path = Storing_Data_To_A_Text_File.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92050B7B24E31A280060171E /* Project object */;
+}
